@@ -1,0 +1,25 @@
+# Base16 Ocean
+color00="#2b303b" # Base 00 - Black
+color01="#bf616a" # Base 08 - Red
+color02="#a3be8c" # Base 0B - Green
+color03="#ebcb8b" # Base 0A - Yellow
+color04="#8fa1b3" # Base 0D - Blue
+color05="#b48ead" # Base 0E - Magenta
+color06="#96b5b4" # Base 0C - Cyan
+color07="#c0c5ce" # Base 05 - White
+color08="#65737e" # Base 03 - Bright Black
+color09=$color01 # Base 08 - Bright Red
+color10=$color02 # Base 0B - Bright Green
+color11=$color03 # Base 0A - Bright Yellow
+color12=$color04 # Base 0D - Bright Blue
+color13=$color05 # Base 0E - Bright Magenta
+color14=$color06 # Base 0C - Bright Cyan
+color15="#eff1f5" # Base 07 - Bright White
+color16="#d08770" # Base 09
+color17="#ab7967" # Base 0F
+color18="#343d46" # Base 01
+color19="#4f5b66" # Base 02
+color20="#a7adba" # Base 04
+color21="#dfe1e8" # Base 06
+color_foreground="#c0c5ce" # Base 05
+color_background="#2b303b" # Base 00
