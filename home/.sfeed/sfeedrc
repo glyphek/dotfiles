@@ -1,0 +1,18 @@
+#sfeedpath="$HOME/.sfeed/feeds"
+
+# list of feeds to fetch:
+feeds() {
+	# feed <name> <feedurl> [basesiteurl] [encoding]
+	feed "codemadness" "https://www.codemadness.org/atom_content.xml"
+	feed "linux kernel" "https://www.kernel.org/feeds/kdist.xml" "https://www.kernel.org"
+	feed "slashdot" "http://rss.slashdot.org/Slashdot/slashdot" "http://slashdot.org"
+	feed "tweakers" "http://feeds.feedburner.com/tweakers/mixed" "http://tweakers.net" "iso-8859-1"
+	feed "xkcd" "https://xkcd.com/atom.xml" "https://xkcd.com"
+	feed "MIT" "https://www.technologyreview.com/feed/"
+	feed "NYT World" "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+	feed "NYT US" "https://rss.nytimes.com/services/xml/rss/nyt/US.xml"
+	feed "NYT Pol" "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml"
+	feed "lobsters" "http://kitakitsune.org/raw/feeds/lobsters.xml"
+	feed "rfc-editor" "https://www.rfc-editor.org/rfcrss.xml"
+	feed "drewdevault" "https://drewdevault.com/blog/index.xml"
+}

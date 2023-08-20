@@ -1,0 +1,6 @@
+ignore noexec /mnt/steamgames
+ignore seccomp
+whitelist /mnt/steamgames
+whitelist ~/.steam
+whitelist ~/.steam/root
+whitelist ~/.steam/root/compatibilitytools.d/
